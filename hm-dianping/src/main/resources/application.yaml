@@ -9,7 +9,7 @@ spring:
     username: root
     password: zyj2005!
   redis:
-    host: 192.168.80.150
+    host: 192.168.80.159
     port: 6379
     password: zyj2005!
     lettuce:
@@ -19,9 +19,9 @@ spring:
         min-idle: 1
         time-between-eviction-runs: 10s
   jackson:
-    default-property-inclusion: non_null # JSON处理时忽略非空字段
+    default-property-inclusion: non_null
 mybatis-plus:
-  type-aliases-package: com.hmdp.entity # 别名扫描包
+  type-aliases-package: com.hmdp.entity
 logging:
   level:
     com.hmdp: debug
